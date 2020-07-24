@@ -7,15 +7,17 @@ Create a database as a CSV to store workouts.  This is run for a new user only.
 """
 import datetime
 import csv
+import pandas
 
 
 def CreateCSV(USER_N, DATE):
     filename = 'WOD_LOG_'+str(USER_N)+'.csv'
-    with open(filename, 'w') as csvfile:
-        filewriter = csv.writer(csvfile, delimiter=' ')
-        filewriter.writerow(['USER_N', str(USER_N)])
-        filewriter.writerow(['Date Created', str(DATE)])
+    df1 = pandas.DataFrame({"Date": [str(DATE)],
+                            "Notes": ['Log File Created']})
+
+    df1.to_csv(filename)
     print("Created Log file for " + str(USER_N))
+    print(df1)
 
 
 print("WOD_Create.py started.")
