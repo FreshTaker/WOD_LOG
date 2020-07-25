@@ -75,13 +75,12 @@ def add_MAX_WEIGHT(WOD_LOG):
                             "Workout Type": ["Max Weight"],
                             "Move": [moves[int(move_selected)]],
                             "Reps": [int(reps_done)],
-                            "Weight": [int(weight)],
+                            "Weight": [float(weight)],
                             "Notes": [str(notes)]
                             })
     print("New Workout Record:")
     print(df1)
     WOD_LOG = pandas.concat([WOD_LOG, df1])
-    #WOD_LOG = pandas.merge(WOD_LOG, df1, how='outer', on='Date')
     WOD_LOG.reset_index(drop=True, inplace=True)
     return WOD_LOG
 
@@ -93,7 +92,6 @@ def save_CSV(WOD_LOG, filename):
     """Save to the CSV"""
     WOD_LOG.to_csv(filename)
     print("Saved to CSV")
-
 
 def todays_date():
     """Returns today's date"""
