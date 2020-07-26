@@ -1,10 +1,18 @@
 ,Date,Notes,Workout Type,Move,Reps,Weight,Workout Name,Time Limit,Score,Recipe,Rounds
-0,2020-07-24,Log File Created,,,,,,,,,
-1,2020-07-24,3-3-,Max Weight,Sumo Deadlift,3.0,3.0,,,,,
-2,2020-07-24,180,Max Weight,Hang Clean,1.0,1.0,,,,,
-3,2020-07-24,4-4-4-4,Max Weight,Power Clean,5.0,180.0,,,,,
-4,2020-07-24,none,Max Weight,Sumo Deadlift,10.0,170.0,,,,,
-5,2020-07-25,none,Max Weight,Overhead Squat,5.0,100.0,,,,,
-6,2020-07-25,none,Max Weight,Thruster,6.0,300.0,,,,,
-7,2020-07-25,,AMRAP,,,,Test,20.0,300.0,"[{'Move': 'Pushups', 'Reps': 100, 'Weight': 0.0}, {'Move': 'Pullups', 'Reps': 100, 'Weight': 0.0}, {'Move': 'Thrusters', 'Reps': 20, 'Weight': 120.0}]",
-8,2020-07-25,,AFAP,,,,Mmmmm,,20:40,"[{'Move': 'Pushups', 'Reps': 100, 'Weight': 0.0}, {'Move': 'Pullups', 'Reps': 100, 'Weight': 0.0}]",3.0
+0,7/24/20,Log File Created,,,,,,,,,
+1,7/24/20,3-3-,Max Weight,Sumo Deadlift,3.0,3.0,,,,,
+2,7/24/20,180,Max Weight,Hang Clean,1.0,1.0,,,,,
+3,7/24/20,4-4-4-4,Max Weight,Power Clean,5.0,180.0,,,,,
+4,7/24/20,none,Max Weight,Sumo Deadlift,10.0,170.0,,,,,
+5,7/25/20,none,Max Weight,Overhead Squat,5.0,100.0,,,,,
+6,7/25/20,none,Max Weight,Thruster,6.0,300.0,,,,,
+7,7/25/20,,AMRAP,,,,Test,20.0,300,"[{'Move': 'Pushups', 'Reps': 100, 'Weight': 0.0}, {'Move': 'Pullups', 'Reps': 100, 'Weight': 0.0}, {'Move': 'Thrusters', 'Reps': 20, 'Weight': 120.0}]",
+8,7/25/20,,AFAP,,,,Mmmmm,,20:40,"[{'Move': 'Pushups', 'Reps': 100, 'Weight': 0.0}, {'Move': 'Pullups', 'Reps': 100, 'Weight': 0.0}]",3.0
+9,7/25/20,,AFAP,,,,Test,,11:22,"[{'Move': 'Run', 'Units': 'Meters', 'Amount': 400.0}]",1.0
+10,2020-07-25,,AFAP,,,,Test Run,,30:30,"[{'Move': 'Run', 'Units': 'Meters', 'Amount': 400.0}]",2.0
+11,2020-07-25,,AFAP,,,,Test Run 22,,40:40,"[{'Move': 'Row', 'Units': 'Calories', 'Amount': 10.0}]",1.0
+12,2020-07-25,,AFAP,,,,Test Run 333,,40:00,[],1.0
+13,2020-07-25,,AMRAP,,,,Testrun,44.0,300,"[{'Move': 'Thruster', 'Reps': 30, 'Weight': 100.0}, {'Move': 'Run', 'Units': 'Meters', 'Amount': 100.0}, {'Move': 'Row', 'Units': 'Calories', 'Amount': 10.0}]",
+14,2020-07-25,,AFAP,,,,Yes Man,,30:30,"[{'Move': 'Thrusters', 'Reps': 40, 'Weight': 100.0}, {'Move': 'Run', 'Units': 'Meters', 'Amount': 100.0}, {'Move': 'Bike', 'Units': 'Calories', 'Amount': 10.0}]",3.0
+15,2020-07-25,none,Max Weight,Thruster,4.0,150.0,,,,,
+16,2020-07-25,none,Max Weight,Thruster,2.0,150.5,,,,,

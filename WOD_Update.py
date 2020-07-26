@@ -14,6 +14,7 @@ Each row is a workout logged:
 """
 import datetime
 import pandas
+import sys
 
 def get_CSV(FILENAME):
     """ Retrieves CSV file containing workout log information. """
@@ -58,16 +59,34 @@ def add_AMRAP(WOD_LOG):
     score = input('Enter score (total reps): ')
     N_moves = input('Enter total # of moves per round: ')
     Recipe = []
-    for i in range(0,int(N_moves)):
-        print('Move ' + str(i+1) + ' of ' + str(N_moves))
-        imoves = input('Enter move name or run/row/bike: ')
-        imoves = imoves.title()
-        ireps = input('Enter # of reps: ')
-        iweight = input(' Enter # of pounds (enter 0 if none): ')
-        Recipe.append({"Move": imoves,
-                       "Reps": int(ireps),
-                       "Weight": float(iweight)})
 
+    for i in range(0, int(N_moves)):
+        print('Move ' + str(i + 1) + ' of ' + str(N_moves))
+        imoves = input('Enter move name or Run/Row/Bike: ')
+        imoves = imoves.title()
+        if imoves == "Run" or imoves == "Row" or imoves == "Bike":
+            if imoves == "Run":
+                iunits = "Meters"
+            else:
+                iunits = input('Enter 1) Calories or 2) Meters: ')
+                if iunits == str(1):
+                    iunits = "Calories"
+                elif iunits == str(2):
+                    iunits = "Meters"
+                else:
+                    print("Invalid entry")
+                    end_program()
+            iamount = input('Enter amount of ' + (iunits) + ': ')
+            Recipe.append({"Move": imoves,
+                           "Units": iunits,
+                           "Amount": float(iamount)})
+
+        else:
+            ireps = input('Enter # of reps: ')
+            iweight = input(' Enter # of pounds (enter 0 if none): ')
+            Recipe.append({"Move": imoves,
+                           "Reps": int(ireps),
+                           "Weight": float(iweight)})
     notes = input('Enter any notes, rep scheme, etc: ')
     print(Recipe)
     date = todays_date()
@@ -97,13 +116,31 @@ def add_AFAP(WOD_LOG):
     Recipe = []
     for i in range(0,int(N_moves)):
         print('Move ' + str(i+1) + ' of ' + str(N_moves))
-        imoves = input('Enter move name or run/row/bike: ')
+        imoves = input('Enter move name or Run/Row/Bike: ')
         imoves = imoves.title()
-        ireps = input('Enter # of reps: ')
-        iweight = input(' Enter # of pounds (enter 0 if none): ')
-        Recipe.append({"Move": imoves,
-                       "Reps": int(ireps),
-                       "Weight": float(iweight)})
+        if imoves == "Run" or imoves == "Row" or imoves == "Bike":
+            if imoves == "Run":
+                iunits = "Meters"
+            else:
+                iunits = input('Enter 1) Calories or 2) Meters: ')
+                if iunits == str(1):
+                    iunits = "Calories"
+                elif iunits == str(2):
+                    iunits = "Meters"
+                else:
+                    print("Invalid entry")
+                    end_program()
+            iamount = input('Enter amount of ' + (iunits) + ': ')
+            Recipe.append({"Move": imoves,
+                           "Units": iunits,
+                           "Amount": float(iamount)})
+
+        else:
+            ireps = input('Enter # of reps: ')
+            iweight = input(' Enter # of pounds (enter 0 if none): ')
+            Recipe.append({"Move": imoves,
+                           "Reps": int(ireps),
+                           "Weight": float(iweight)})
 
     notes = input('Enter any notes, rep scheme, etc: ')
     print(Recipe)
@@ -154,6 +191,7 @@ def add_MAX_WEIGHT(WOD_LOG):
 def end_program():
     """Ending the program"""
     print("Ending program.  Good bye.")
+    sys.exit()
 
 def save_CSV(WOD_LOG, filename, TF):
     """Save to the CSV, if True"""
