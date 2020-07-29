@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fccde9cd-eeeb-491a-81e1-9b025fe82475" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WOD_LOG_DAD.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WOD_LOG_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WOD_LOG_1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WOD_Update.py" beforeDir="false" afterPath="$PROJECT_DIR$/WOD_Update.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +34,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.WOD_Update">
@@ -103,22 +104,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1141" height="237" key="GridCell.Tab.0.bottom" timestamp="1595725617471">
+    <state width="1141" height="237" key="GridCell.Tab.0.bottom" timestamp="1595786515210">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1141" height="237" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595725617471" />
-    <state width="1141" height="237" key="GridCell.Tab.0.center" timestamp="1595725617470">
+    <state width="1141" height="237" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595786515210" />
+    <state width="1141" height="237" key="GridCell.Tab.0.center" timestamp="1595786515209">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1141" height="237" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595725617470" />
-    <state width="1141" height="237" key="GridCell.Tab.0.left" timestamp="1595725617470">
+    <state width="1141" height="237" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595786515209" />
+    <state width="1141" height="237" key="GridCell.Tab.0.left" timestamp="1595786515208">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1141" height="237" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595725617470" />
-    <state width="1141" height="237" key="GridCell.Tab.0.right" timestamp="1595725617471">
+    <state width="1141" height="237" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595786515208" />
+    <state width="1141" height="237" key="GridCell.Tab.0.right" timestamp="1595786515209">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1141" height="237" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595725617471" />
+    <state width="1141" height="237" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595786515209" />
     <state x="0" y="100" key="SettingsEditor" timestamp="1595524080768">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -131,16 +132,5 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="110" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1595702203005" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/WOD_Update.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

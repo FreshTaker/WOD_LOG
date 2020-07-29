@@ -83,7 +83,7 @@ def add_AMRAP(WOD_LOG):
 
         else:
             ireps = input('Enter # of reps: ')
-            iweight = input(' Enter # of pounds (enter 0 if none): ')
+            iweight = input('Enter # of pounds (enter 0 if none): ')
             Recipe.append({"Move": imoves,
                            "Reps": int(ireps),
                            "Weight": float(iweight)})
@@ -137,7 +137,7 @@ def add_AFAP(WOD_LOG):
 
         else:
             ireps = input('Enter # of reps: ')
-            iweight = input(' Enter # of pounds (enter 0 if none): ')
+            iweight = input('Enter # of pounds (enter 0 if none): ')
             Recipe.append({"Move": imoves,
                            "Reps": int(ireps),
                            "Weight": float(iweight)})

@@ -1,0 +1,3 @@
+,Date,Notes,Workout Type,Workout Name,Time Limit,Score,Recipe
+0,2020-07-26,Log File Created,,,,,
+1,2020-07-26,,AMRAP,Test Run,20.0,100.0,"[{'Move': 'Run', 'Units': 'Meters', 'Amount': 500.0}, {'Move': 'Pushups', 'Reps': 10, 'Weight': 0.0}, {'Move': 'Pullups', 'Reps': 10, 'Weight': 0.0}, {'Move': 'Thrusters', 'Reps': 10, 'Weight': 150.0}, {'Move': 'Row', 'Units': 'Meters', 'Amount': 500.0}]"
