@@ -165,7 +165,7 @@ def add_MAX_WEIGHT(WOD_LOG):
     # Future: read log and display already logged options
     print("Moves Available: ")
     moves = ['Back Squat', 'Front Squat', 'Overhead Squat', 'Deadlift', 'Sumo Deadlift', 'Power Clean', 'Hang Clean',
-             'Bench Press', 'Thruster']
+             'Bench Press', 'Push Press', 'Strict Press', 'Thruster']
     imoves = range(0,len(moves))
     for m,n in zip(moves,imoves):
         print(n,m)

@@ -1,0 +1,12 @@
+,Date,Notes,Workout Type,Workout Name,Rounds,Score,Recipe,Time Limit,Move,Reps,Weight
+0,2020-08-01,Log File Created,,,,,,,,,
+1,2020-08-01,,AFAP,Nancy,5.0,15:56,"[{'Move': 'Run', 'Units': 'Meters', 'Amount': 400.0}, {'Move': 'Overhead Squat', 'Reps': 15, 'Weight': 45.0}]",,,,
+2,2020-08-01,,AMRAP,Cindy,,570,"[{'Move': 'Pull Ups', 'Reps': 5, 'Weight': 0.0}, {'Move': 'Push Ups', 'Reps': 10, 'Weight': 0.0}, {'Move': 'Air Squats', 'Reps': 15, 'Weight': 0.0}]",20.0,,,
+3,2020-08-01,1/31/2020,Max Weight,,,,,,Back Squat,1.0,305.0
+4,2020-08-01,1/31/2020,Max Weight,,,,,,Strict Press,1.0,145.0
+5,2020-08-01,1/31/2020,Max Weight,,,,,,Deadlift,1.0,395.0
+6,2020-08-01,1/21/2020,Max Weight,,,,,,Power Clean,1.0,175.0
+7,2020-08-01,2/26/2020,Max Weight,,,,,,Thruster,1.0,185.0
+8,2020-08-01,3/9/2020,Max Weight,,,,,,Push Press,1.0,170.0
+9,2020-08-01,1/21/2020,Max Weight,,,,,,Push Press,1.0,165.0
+10,2020-08-01,,AFAP,15.1,4.0,11:17,"[{'Move': 'Row', 'Units': 'Calories', 'Amount': 27.0}, {'Move': 'Thrusters', 'Reps': 27, 'Weight': 75.0}]",,,,

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fccde9cd-eeeb-491a-81e1-9b025fe82475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WOD_LOG_DAD.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WOD_LOG_Paul.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WOD_LOG_1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/WOD_LOG_1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WOD_Read.py" beforeDir="false" afterPath="$PROJECT_DIR$/WOD_Read.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WOD_Update.py" beforeDir="false" afterPath="$PROJECT_DIR$/WOD_Update.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +61,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="WOD_Read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WOD_LOG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WOD_Read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="WOD_Update" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="WOD_LOG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,6 +106,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.WOD_Update" />
+        <item itemvalue="Python.WOD_Read" />
         <item itemvalue="Python.WOD_Create" />
       </list>
     </recent_temporary>
@@ -104,30 +128,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1141" height="237" key="GridCell.Tab.0.bottom" timestamp="1595786515210">
+    <state width="720" height="237" key="GridCell.Tab.0.bottom" timestamp="1596313971349">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1141" height="237" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1595786515210" />
-    <state width="1141" height="237" key="GridCell.Tab.0.center" timestamp="1595786515209">
+    <state width="720" height="237" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1596313971349" />
+    <state width="720" height="237" key="GridCell.Tab.0.center" timestamp="1596313971348">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1141" height="237" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1595786515209" />
-    <state width="1141" height="237" key="GridCell.Tab.0.left" timestamp="1595786515208">
+    <state width="720" height="237" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1596313971348" />
+    <state width="720" height="237" key="GridCell.Tab.0.left" timestamp="1596313971348">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1141" height="237" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1595786515208" />
-    <state width="1141" height="237" key="GridCell.Tab.0.right" timestamp="1595786515209">
+    <state width="720" height="237" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1596313971348" />
+    <state width="720" height="237" key="GridCell.Tab.0.right" timestamp="1596313971348">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1141" height="237" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1595786515209" />
+    <state width="720" height="237" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1596313971348" />
     <state x="0" y="100" key="SettingsEditor" timestamp="1595524080768">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1595524080768" />
-    <state x="210" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1595689740812">
+    <state x="210" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1596312751818">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="210" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1595689740812" />
+    <state x="210" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1596312751818" />
     <state x="110" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1595702203005">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
