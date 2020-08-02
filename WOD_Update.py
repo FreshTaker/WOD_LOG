@@ -65,18 +65,27 @@ def add_AMRAP(WOD_LOG):
         imoves = input('Enter move name or Run/Row/Bike: ')
         imoves = imoves.title()
         if imoves == "Run" or imoves == "Row" or imoves == "Bike":
-            if imoves == "Run":
+            iunits = input('Enter 1)Calories,  2)Meters, 3)Kilometers, or 4)Miles: ')
+            if iunits == str(1):
+               iunits = "Calories"
+            elif iunits == str(2):
                 iunits = "Meters"
+            elif iunits == str(3):
+                iunits = "Kilometers"
+            elif iunits == str(4):
+                iunits = "Miles"
             else:
-                iunits = input('Enter 1) Calories or 2) Meters: ')
-                if iunits == str(1):
-                    iunits = "Calories"
-                elif iunits == str(2):
-                    iunits = "Meters"
-                else:
-                    print("Invalid entry")
-                    end_program()
+                print("Invalid entry")
+                end_program()
             iamount = input('Enter amount of ' + (iunits) + ': ')
+
+            if iunits == "Kilometers":
+                iamount = convertKm(iamount)
+                iunits = "Meters"
+            if iunits == "Miles":
+                iamount = convertMi(iamount)
+                iunits = "Meters"
+
             Recipe.append({"Move": imoves,
                            "Units": iunits,
                            "Amount": float(iamount)})
@@ -95,7 +104,8 @@ def add_AMRAP(WOD_LOG):
                             "Workout Name": [workout_name],
                             "Time Limit": [int(timelimit)],
                             "Score": [int(score)],
-                            "Recipe": [Recipe]
+                            "Recipe": [Recipe],
+                            "Notes": [notes]
                             })
     print("New Workout Record:")
     print(df1)
@@ -119,18 +129,26 @@ def add_AFAP(WOD_LOG):
         imoves = input('Enter move name or Run/Row/Bike: ')
         imoves = imoves.title()
         if imoves == "Run" or imoves == "Row" or imoves == "Bike":
-            if imoves == "Run":
+            iunits = input('Enter 1)Calories,  2)Meters, 3)Kilometers, or 4)Miles: ')
+            if iunits == str(1):
+                iunits = "Calories"
+            elif iunits == str(2):
                 iunits = "Meters"
+            elif iunits == str(3):
+                iunits = "Kilometers"
+            elif iunits == str(4):
+                iunits = "Miles"
             else:
-                iunits = input('Enter 1) Calories or 2) Meters: ')
-                if iunits == str(1):
-                    iunits = "Calories"
-                elif iunits == str(2):
-                    iunits = "Meters"
-                else:
-                    print("Invalid entry")
-                    end_program()
+                print("Invalid entry")
+                end_program()
             iamount = input('Enter amount of ' + (iunits) + ': ')
+
+            if iunits == "Kilometers":
+                iamount = convertKm(iamount)
+                iunits = "Meters"
+            if iunits == "Miles":
+                iamount = convertMi(iamount)
+                iunits = "Meters"
             Recipe.append({"Move": imoves,
                            "Units": iunits,
                            "Amount": float(iamount)})
@@ -150,7 +168,8 @@ def add_AFAP(WOD_LOG):
                             "Workout Name": [workout_name],
                             "Rounds": [int(rounds)],
                             "Score": [str(score)],
-                            "Recipe": [Recipe]
+                            "Recipe": [Recipe],
+                            "Notes": [notes]
                             })
     print("New Workout Record:")
     print(df1)
@@ -206,6 +225,20 @@ def todays_date():
     date = datetime.datetime.today()
     date = date.date()
     return date
+
+def convertMi(MILES):
+    """Convert Miles to Meters"""
+    METERS = float(MILES) * 1609.34
+    METERS = round(METERS)
+    return METERS
+
+
+def convertKm(KM):
+    """Convert Km to Meters"""
+    METERS = float(KM) * 1000
+    METERS = round(METERS)
+    return METERS
+
 
 
 """MAIN"""

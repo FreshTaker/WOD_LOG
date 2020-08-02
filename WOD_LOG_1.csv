@@ -1,2 +1,4 @@
-,Date,Notes
-0,2020-08-01,Log File Created
+,Date,Notes,Workout Type,Workout Name,Time Limit,Score,Recipe,Rounds
+0,2020-08-01,Log File Created,,,,,,
+1,2020-08-02,,AMRAP,Test Run,15.0,1.0,"[{'Move': 'Run', 'Units': 'Meters', 'Amount': 6840.0}]",
+2,2020-08-02,,AFAP,Test Run,,20,"[{'Move': 'Run', 'Units': 'Meters', 'Amount': 5000.0}]",1.0
