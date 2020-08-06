@@ -20,18 +20,18 @@ def nonlin(x, deriv = False):
     return 1/(1+numpy.exp(-x))
 
 # Input Dataset
-X = numpy.array([[0,0,1],
-                [0,1,1],
-                [1,0,1],
-                [1,1,1]])
+X = numpy.array([[1,4,7,9],
+                [5,7,9,3],
+                [1,1,1,1],
+                [3,7,0,0]])
 # Output Dataset
-y = numpy.array([[0,0,1,1]]).T
+y = numpy.array([[21,24,4,10]]).T
 
 # seed random numbers to make calculation deterministic
 numpy.random.seed(1)
 
 # initialize weights randomly with mean 0
-syn0 = 2*numpy.random.random((3,1)) - 1
+syn0 = 2*numpy.random.random((len(X[0]),1)) - 1
 
 for iter in range(10000):
     #forward propagation
