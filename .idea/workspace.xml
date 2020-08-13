@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fccde9cd-eeeb-491a-81e1-9b025fe82475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NeuralNetwork3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NeuralNetwork2.py" beforeDir="false" afterPath="$PROJECT_DIR$/NeuralNetwork2.py" afterDir="false" />
-    </list>
+    <list default="true" id="fccde9cd-eeeb-491a-81e1-9b025fe82475" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,10 +186,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1595524080768" />
-    <state x="210" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1596574566073">
+    <state x="210" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1597277623868">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="210" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1596574566073" />
+    <state x="210" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1597277623868" />
     <state x="110" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1596395814062">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
